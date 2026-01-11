@@ -42,7 +42,7 @@ export default function BorderedButton({
                 transition: {
                   duration: 0.8,
                   delay: 0.3,
-                  ease: [0.24, 0.43, 0.15, 0.97],
+                  ease: [0.24, 0.43, 0.15, 0.97] as const,
                 },
               },
             }}

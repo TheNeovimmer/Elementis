@@ -1,8 +1,8 @@
 import * as motion from "motion/react-client";
 import cn from "@/utils/cn";
-import { AnimationProps, MotionStyle, Variants } from "motion/react";
+import { MotionProps, MotionStyle, Variants } from "motion/react";
 
-interface NavigateSVGProps extends AnimationProps {
+interface NavigateSVGProps extends MotionProps {
   fill?: "#2B3530" | "#D1CCBF" | "#FFFFFF";
   className?: string;
   style?: MotionStyle;
